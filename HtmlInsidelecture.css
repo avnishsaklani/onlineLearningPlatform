@@ -1,0 +1,89 @@
+.quiz-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 46%;
+}
+
+.quiz-button:hover {
+    background-color: #c0392b;
+}
+
+
+
+/* Apply general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Apply specific styles */
+h1 {
+    font-size: 28px;
+}
+
+.container p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container p:nth-child(2) {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container h2 {
+    font-size: 24px;
+}
+
+.container h3 {
+    font-size: 20px;
+}
+
+/* Add styles for the quiz section */
+.quiz {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.quiz h1 {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Apply media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}

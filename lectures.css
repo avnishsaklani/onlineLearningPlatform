@@ -1,0 +1,114 @@
+/* Reset some default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the entire section */
+#lectures {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: -60px;
+
+}
+
+/* Styling for the heading */
+#lectures h1 {
+    font-size: 36px;
+    color: #ce1b7b;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+#userHistory h2{
+    margin-top: 50px;
+    color: #1a7991;
+}
+
+
+
+/* Styling for lecture containers */
+.lecture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for individual lecture iframes */
+.lecture-iframe {
+    width: calc(80.33% - 40px);
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for lecture iframes */
+.lecture-iframe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for lecture titles */
+.lecture-iframe h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+
+/* Styling for author and date */
+.lecture-iframe p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+
+
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center inputs */
+    background-color: #80ab83;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(3, 1, 1, 0.607);
+}
+
+.filters input {
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.filters input:focus {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+ /* Styling for the entire section */
+/* #lectures {
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+} */
+
+/* Styling for the heading */
+/* #lectures h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #955609;
+} */
+
+/* Styling for lecture containers */
+/* .lecture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}  */ 

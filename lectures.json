@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Introduction to HTML",
+        "author": "Avnish Saklani",
+        "date": "2023-08-21"
+    },
+    {
+        "title": "HTML Elements and Structure",
+        "author": "Kuldeep Rawat",
+        "date": "2023-08-22"
+    },
+    {
+        "title": "HTML Forms and Inputs",
+        "author": "Bandana Bhatt",
+        "date": "2023-08-23"
+    },
+    {
+        "title": "Semantic HTML5 Tags",
+        "author": "Sonu Thapa",
+        "date": "2023-08-24"
+    },
+    {
+        "title": "HTML Accessibility Best Practices",
+        "author": "Sumit Kukreti",
+        "date": "2023-08-25"
+    }
+]
